@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+     background-color: black; 
+    color: white; 
+}
+#title{
+    font-size: 36px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    
+    margin-left: 10px;
+}
+.main{
+    height: 150px;
+}
+.main_img{
+    display: flex;
+margin-left: 10px;
+    margin-top: 20px;
+}
+.main_img span img:nth-child(1){
+padding-bottom: 20px;
+}
+.main_img span:nth-child(2){
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.main_img span:nth-child(3){
+padding-top: 4px;
+}
+.main_img span img{
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    /* background-color: transparent; */
+    border: 2px solid white;
+    border-radius: 50px;
+    
+}
+#move{
+    margin-top: 20px;
+    font-size: 32px;
+    margin-left: 10px;
+}
+#output{
+    margin-top: 100px;
+    font-size: 26px;
+}
+/* .icon{
+    width: 100px;
+    height: 100px;
+    padding-top: 8px;
+} */
+#auto{
+    margin-left: 20px;
+    margin-top: 200px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: grey;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.icon{
+    width: 120px;
+    height: 120px;
+    
+
+}
+.msg{
+    width: 400px;
+    margin-left: 90px;
+    margin-top: 50px;
+    border: 2px solid rgb(220, 209, 9);
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.display{
+    width: 600px;
+    margin-left: 7px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 5px;
+    font-size: 28px;
+    font-weight: 700;
+    word-spacing: 15px;
+    
+
+}
+#auto{
+    width: 170px;
+    height: 60px;
+  position: absolute;
+  top: 420px;
+  left: 200px;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 3px solid red ;
+  border-radius: 50px;
+}
+#autoplay{
+    width: 120px;
+    height: 60px;
+  position: absolute;
+  top: 690px;
+  left: 245px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 3px solid red ;
+  border-radius: 50px; 
+}

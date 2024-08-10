@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <title>Rock paper Scissors</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+ <main>
+    <div class="main">
+        <p id="title">Rock Paper Scissors</p>
+        <div class="main_img">
+            <span id="rock" ><img src="img/rock.jpeg" alt="Rock" onclick="UserMove('ROCK')"></span>
+            <span id="paper" ><img src="img/paper.jpeg" alt="Paper" onclick="UserMove('PAPER')"></span>
+            <span id="scissors" ><img src="img/Scissors.jpeg" alt="Scissors" onclick="UserMove('SCISSORS')"></span>  
+        </div>
+        <button id="auto" onclick="Reset()">RESET</button>
+        <button id='autoplay' onclick="Autoplay()">Autoplay</button>
+
+        
+    </div>
+    <div class="output">
+        <h2 id="move"> </h2>
+        <p id="score"></p>
+    </div>
+   
+ </main>
+<script src="index.js"></script>
+</body>
+</html>
